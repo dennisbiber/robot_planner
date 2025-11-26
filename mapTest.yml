@@ -1,0 +1,1402 @@
+submaps:
+- id: A
+  type: roadway
+  boundaries:
+  - - - 3
+      - 8
+    - - 3
+      - 3
+  - - - 8
+      - 8
+    - - 1
+      - 3
+  - - - 3
+      - 8
+    - - 1
+      - 1
+  - - - 3
+      - 3
+    - - 1
+      - 3
+  lanes:
+  - id: A1
+    centerline:
+    - - 3
+      - 8
+    - - 2.5
+      - 2.5
+    enter:
+    - 8
+    - 2.5
+    exit:
+    - 3
+    - 2.5
+  - id: A2
+    centerline:
+    - - 3
+      - 8
+    - - 1.5
+      - 1.5
+    enter:
+    - 3
+    - 1.5
+    exit:
+    - 8
+    - 1.5
+- id: E
+  type: roadway
+  boundaries:
+  - - - 3
+      - 8
+    - - 10
+      - 10
+  - - - 8
+      - 8
+    - - 8
+      - 10
+  - - - 3
+      - 8
+    - - 8
+      - 8
+  - - - 3
+      - 3
+    - - 8
+      - 10
+  lanes:
+  - id: E1
+    centerline:
+    - - 3
+      - 8
+    - - 9.5
+      - 9.5
+    enter:
+    - 8
+    - 9.5
+    exit:
+    - 3
+    - 9.5
+  - id: E2
+    centerline:
+    - - 3
+      - 8
+    - - 8.5
+      - 8.5
+    enter:
+    - 3
+    - 8.5
+    exit:
+    - 8
+    - 8.5
+- id: G
+  type: roadway
+  boundaries:
+  - - - 1
+      - 3
+    - - 3
+      - 3
+  - - - 1
+      - 1
+    - - 3
+      - 8
+  - - - 1
+      - 3
+    - - 8
+      - 8
+  - - - 3
+      - 3
+    - - 3
+      - 8
+  lanes:
+  - id: G1
+    centerline:
+    - - 2.5
+      - 2.5
+    - - 3
+      - 8
+    enter:
+    - 2.5
+    - 3
+    exit:
+    - 2.5
+    - 8
+  - id: G2
+    centerline:
+    - - 1.5
+      - 1.5
+    - - 3
+      - 8
+    enter:
+    - 1.5
+    - 8
+    exit:
+    - 1.5
+    - 3
+- id: I
+  type: roadway
+  boundaries:
+  - - - 10
+      - 15
+    - - 3
+      - 3
+  - - - 15
+      - 15
+    - - 1
+      - 3
+  - - - 10
+      - 15
+    - - 1
+      - 1
+  - - - 10
+      - 10
+    - - 1
+      - 3
+  lanes:
+  - id: I1
+    centerline:
+    - - 10
+      - 15
+    - - 2.5
+      - 2.5
+    enter:
+    - 15
+    - 2.5
+    exit:
+    - 10
+    - 2.5
+  - id: I2
+    centerline:
+    - - 10
+      - 15
+    - - 1.5
+      - 1.5
+    enter:
+    - 10
+    - 1.5
+    exit:
+    - 15
+    - 1.5
+- id: K
+  type: roadway
+  boundaries:
+  - - - 15
+      - 17
+    - - 3
+      - 3
+  - - - 15
+      - 15
+    - - 3
+      - 8
+  - - - 15
+      - 17
+    - - 8
+      - 8
+  - - - 17
+      - 17
+    - - 3
+      - 8
+  lanes:
+  - id: K1
+    centerline:
+    - - 16.5
+      - 16.5
+    - - 3
+      - 8
+    enter:
+    - 16.5
+    - 3
+    exit:
+    - 16.5
+    - 8
+  - id: K2
+    centerline:
+    - - 15.5
+      - 15.5
+    - - 3
+      - 8
+    enter:
+    - 15.5
+    - 8
+    exit:
+    - 15.5
+    - 3
+- id: M
+  type: roadway
+  boundaries:
+  - - - 10
+      - 15
+    - - 10
+      - 10
+  - - - 15
+      - 15
+    - - 8
+      - 10
+  - - - 10
+      - 15
+    - - 8
+      - 8
+  - - - 10
+      - 10
+    - - 8
+      - 10
+  lanes:
+  - id: M1
+    centerline:
+    - - 10
+      - 15
+    - - 9.5
+      - 9.5
+    enter:
+    - 15
+    - 9.5
+    exit:
+    - 10
+    - 9.5
+  - id: M2
+    centerline:
+    - - 10
+      - 15
+    - - 8.5
+      - 8.5
+    enter:
+    - 10
+    - 8.5
+    exit:
+    - 15
+    - 8.5
+- id: N
+  type: roadway
+  boundaries:
+  - - - 17
+      - 17
+    - - 1
+      - 3
+  - - - 17
+      - 22
+    - - 1
+      - 1
+  - - - 22
+      - 22
+    - - 1
+      - 3
+  - - - 17
+      - 22
+    - - 3
+      - 3
+  lanes:
+  - id: N1
+    centerline:
+    - - 17
+      - 22
+    - - 2.5
+      - 2.5
+    enter:
+    - 22
+    - 2.5
+    exit:
+    - 17
+    - 2.5
+  - id: N2
+    centerline:
+    - - 17
+      - 22
+    - - 1.5
+      - 1.5
+    enter:
+    - 17
+    - 1.5
+    exit:
+    - 22
+    - 1.5
+- id: P
+  type: roadway
+  boundaries:
+  - - - 22
+      - 24
+    - - 3
+      - 3
+  - - - 22
+      - 22
+    - - 3
+      - 15
+  - - - 22
+      - 24
+    - - 15
+      - 15
+  - - - 24
+      - 24
+    - - 3
+      - 15
+  lanes:
+  - id: P1
+    centerline:
+    - - 23.5
+      - 23.5
+    - - 3
+      - 15
+    enter:
+    - 23.5
+    - 3
+    exit:
+    - 23.5
+    - 15
+  - id: P2
+    centerline:
+    - - 22.5
+      - 22.5
+    - - 3
+      - 15
+    enter:
+    - 22.5
+    - 15
+    exit:
+    - 22.5
+    - 3
+- id: R
+  type: roadway
+  boundaries:
+  - - - 10
+      - 10
+    - - 15
+      - 17
+  - - - 10
+      - 22
+    - - 15
+      - 15
+  - - - 22
+      - 22
+    - - 15
+      - 15
+  - - - 10
+      - 22
+    - - 17
+      - 17
+  lanes:
+  - id: R1
+    centerline:
+    - - 10
+      - 22
+    - - 16.5
+      - 16.5
+    enter:
+    - 22
+    - 16.5
+    exit:
+    - 10
+    - 16.5
+  - id: R2
+    centerline:
+    - - 10
+      - 22
+    - - 15.5
+      - 15.5
+    enter:
+    - 10
+    - 15.5
+    exit:
+    - 22
+    - 15.5
+- id: T
+  type: roadway
+  boundaries:
+  - - - 8
+      - 10
+    - - 10
+      - 10
+  - - - 8
+      - 8
+    - - 10
+      - 15
+  - - - 8
+      - 10
+    - - 15
+      - 15
+  - - - 10
+      - 10
+    - - 10
+      - 15
+  lanes:
+  - id: T1
+    centerline:
+    - - 9.5
+      - 9.5
+    - - 10
+      - 15
+    enter:
+    - 9.5
+    - 10
+    exit:
+    - 9.5
+    - 15
+  - id: T2
+    centerline:
+    - - 8.5
+      - 8.5
+    - - 10
+      - 15
+    enter:
+    - 8.5
+    - 15
+    exit:
+    - 8.5
+    - 10
+- id: U
+  type: roadway
+  boundaries:
+  - - - 1
+      - 3
+    - - 10
+      - 10
+  - - - 1
+      - 1
+    - - 10
+      - 25
+  - - - 1
+      - 3
+    - - 25
+      - 25
+  - - - 3
+      - 3
+    - - 10
+      - 25
+  lanes:
+  - id: U1
+    centerline:
+    - - 2.5
+      - 2.5
+    - - 10
+      - 25
+    enter:
+    - 2.5
+    - 10
+    exit:
+    - 2.5
+    - 25
+  - id: U2
+    centerline:
+    - - 1.5
+      - 1.5
+    - - 10
+      - 25
+    enter:
+    - 1.5
+    - 25
+    exit:
+    - 1.5
+    - 10
+- id: W
+  type: roadway
+  boundaries:
+  - - - 3
+      - 8
+    - - 25
+      - 25
+  - - - 8
+      - 8
+    - - 25
+      - 27
+  - - - 3
+      - 8
+    - - 27
+      - 27
+  - - - 3
+      - 3
+    - - 25
+      - 27
+  lanes:
+  - id: W1
+    centerline:
+    - - 3
+      - 8
+    - - 26.5
+      - 26.5
+    enter:
+    - 8
+    - 26.5
+    exit:
+    - 3
+    - 26.5
+  - id: W2
+    centerline:
+    - - 3
+      - 8
+    - - 25.5
+      - 25.5
+    enter:
+    - 3
+    - 25.5
+    exit:
+    - 8
+    - 25.5
+- id: Y
+  type: roadway
+  boundaries:
+  - - - 8
+      - 10
+    - - 17
+      - 17
+  - - - 8
+      - 8
+    - - 17
+      - 25
+  - - - 8
+      - 10
+    - - 25
+      - 25
+  - - - 10
+      - 10
+    - - 17
+      - 25
+  lanes:
+  - id: Y1
+    centerline:
+    - - 9.5
+      - 9.5
+    - - 17
+      - 25
+    enter:
+    - 9.5
+    - 17
+    exit:
+    - 9.5
+    - 25
+  - id: Y2
+    centerline:
+    - - 8.5
+      - 8.5
+    - - 17
+      - 25
+    enter:
+    - 8.5
+    - 25
+    exit:
+    - 8.5
+    - 17
+- id: B
+  type: intersection
+  boundaries:
+  - - - 8
+      - 8
+    - - 1
+      - 3
+  - - - 8
+      - 10
+    - - 1
+      - 1
+  - - - 10
+      - 10
+    - - 1
+      - 3
+  - - - 8
+      - 10
+    - - 3
+      - 3
+  lanes:
+  - id: B1
+    centerline:
+    - - 10
+      - 8
+    - - 2.5
+      - 2.5
+    enter:
+    - 10
+    - 2.5
+    exit:
+    - 8
+    - 2.5
+  - id: B2
+    centerline:
+    - - 8
+      - 10
+    - - 1.5
+      - 1.5
+    enter:
+    - 8
+    - 1.5
+    exit:
+    - 10
+    - 1.5
+- id: D
+  type: intersection
+  boundaries:
+  - - - 8
+      - 8
+    - - 8
+      - 10
+  - - - 8
+      - 10
+    - - 8
+      - 8
+  - - - 10
+      - 10
+    - - 8
+      - 10
+  - - - 8
+      - 10
+    - - 10
+      - 10
+  lanes:
+  - id: D1
+    centerline:
+    - - 8.5
+      - 8
+    - - 10
+      - 9.5
+    enter:
+    - 8.5
+    - 10
+    exit:
+    - 8
+    - 9.5
+  - id: D2
+    centerline:
+    - - 8.5
+      - 10
+    - - 10
+      - 8.5
+    enter:
+    - 8.5
+    - 10
+    exit:
+    - 10
+    - 8.5
+  - id: D3
+    centerline:
+    - - 8
+      - 10
+    - - 8.5
+      - 8.5
+    enter:
+    - 8
+    - 8.5
+    exit:
+    - 10
+    - 8.5
+  - id: D4
+    centerline:
+    - - 8
+      - 9.5
+    - - 8.5
+      - 10
+    enter:
+    - 8
+    - 8.5
+    exit:
+    - 9.5
+    - 10
+  - id: D5
+    centerline:
+    - - 10
+      - 9.5
+    - - 9.5
+      - 10
+    enter:
+    - 10
+    - 9.5
+    exit:
+    - 9.5
+    - 10
+  - id: D6
+    centerline:
+    - - 10
+      - 8
+    - - 9.5
+      - 9.5
+    enter:
+    - 10
+    - 9.5
+    exit:
+    - 8
+    - 9.5
+- id: F
+  type: intersection
+  boundaries:
+  - - - 1
+      - 1
+    - - 8
+      - 10
+  - - - 1
+      - 3
+    - - 8
+      - 8
+  - - - 3
+      - 3
+    - - 8
+      - 10
+  - - - 1
+      - 3
+    - - 10
+      - 10
+  lanes:
+  - id: F1
+    centerline:
+    - - 3
+      - 2.5
+    - - 9.5
+      - 10
+    enter:
+    - 3
+    - 9.5
+    exit:
+    - 2.5
+    - 10
+  - id: F2
+    centerline:
+    - - 3
+      - 1.5
+    - - 9.5
+      - 8
+    enter:
+    - 3
+    - 9.5
+    exit:
+    - 1.5
+    - 8
+  - id: F3
+    centerline:
+    - - 1.5
+      - 1.5
+    - - 10
+      - 8
+    enter:
+    - 1.5
+    - 10
+    exit:
+    - 1.5
+    - 8
+  - id: F4
+    centerline:
+    - - 1.5
+      - 3
+    - - 10
+      - 8.5
+    enter:
+    - 1.5
+    - 10
+    exit:
+    - 3
+    - 8.5
+  - id: F5
+    centerline:
+    - - 2.5
+      - 3
+    - - 8
+      - 8.5
+    enter:
+    - 2.5
+    - 8
+    exit:
+    - 3
+    - 8.5
+  - id: F6
+    centerline:
+    - - 2.5
+      - 2.5
+    - - 8
+      - 10
+    enter:
+    - 2.5
+    - 8
+    exit:
+    - 2.5
+    - 10
+- id: H
+  type: intersection
+  boundaries:
+  - - - 1
+      - 1
+    - - 1
+      - 3
+  - - - 1
+      - 3
+    - - 1
+      - 1
+  - - - 3
+      - 3
+    - - 1
+      - 3
+  - - - 1
+      - 3
+    - - 3
+      - 3
+  lanes:
+  - id: H1
+    centerline:
+    - - 1.5
+      - 3
+    - - 3
+      - 1.5
+    enter:
+    - 1.5
+    - 3
+    exit:
+    - 3
+    - 1.5
+  - id: H2
+    centerline:
+    - - 3
+      - 2.5
+    - - 2.5
+      - 3
+    enter:
+    - 3
+    - 2.5
+    exit:
+    - 2.5
+    - 3
+- id: J
+  type: intersection
+  boundaries:
+  - - - 15
+      - 15
+    - - 1
+      - 3
+  - - - 15
+      - 17
+    - - 1
+      - 1
+  - - - 17
+      - 17
+    - - 1
+      - 3
+  - - - 15
+      - 17
+    - - 3
+      - 3
+  lanes:
+  - id: J1
+    centerline:
+    - - 15.5
+      - 15
+    - - 3
+      - 2.5
+    enter:
+    - 15.5
+    - 3
+    exit:
+    - 15
+    - 2.5
+  - id: J2
+    centerline:
+    - - 15.5
+      - 17
+    - - 3
+      - 1.5
+    enter:
+    - 15.5
+    - 3
+    exit:
+    - 17
+    - 1.5
+  - id: J3
+    centerline:
+    - - 15
+      - 17
+    - - 1.5
+      - 1.5
+    enter:
+    - 15
+    - 1.5
+    exit:
+    - 17
+    - 1.5
+  - id: J4
+    centerline:
+    - - 15
+      - 16.5
+    - - 1.5
+      - 3
+    enter:
+    - 15
+    - 1.5
+    exit:
+    - 16.5
+    - 3
+  - id: J5
+    centerline:
+    - - 17
+      - 16.5
+    - - 2.5
+      - 3
+    enter:
+    - 17
+    - 2.5
+    exit:
+    - 16.5
+    - 3
+  - id: J6
+    centerline:
+    - - 17
+      - 15
+    - - 2.5
+      - 2.5
+    enter:
+    - 17
+    - 2.5
+    exit:
+    - 15
+    - 2.5
+- id: L
+  type: intersection
+  boundaries:
+  - - - 15
+      - 15
+    - - 8
+      - 10
+  - - - 15
+      - 17
+    - - 8
+      - 8
+  - - - 17
+      - 17
+    - - 8
+      - 10
+  - - - 15
+      - 17
+    - - 10
+      - 10
+  lanes:
+  - id: L1
+    centerline:
+    - - 15
+      - 15.5
+    - - 8.5
+      - 8
+    enter:
+    - 15
+    - 8.5
+    exit:
+    - 15.5
+    - 8
+  - id: L2
+    centerline:
+    - - 16.5
+      - 15
+    - - 8
+      - 9.5
+    enter:
+    - 16.5
+    - 8
+    exit:
+    - 15
+    - 9.5
+- id: O
+  type: intersection
+  boundaries:
+  - - - 22
+      - 24
+    - - 1
+      - 1
+  - - - 22
+      - 22
+    - - 1
+      - 3
+  - - - 22
+      - 24
+    - - 3
+      - 3
+  - - - 24
+      - 24
+    - - 1
+      - 3
+  lanes:
+  - id: O1
+    centerline:
+    - - 22.5
+      - 22
+    - - 3
+      - 2.5
+    enter:
+    - 22.5
+    - 3
+    exit:
+    - 22
+    - 2.5
+  - id: O2
+    centerline:
+    - - 22
+      - 23.5
+    - - 1.5
+      - 3
+    enter:
+    - 22
+    - 1.5
+    exit:
+    - 23.5
+    - 3
+- id: Q
+  type: intersection
+  boundaries:
+  - - - 22
+      - 24
+    - - 15
+      - 15
+  - - - 22
+      - 22
+    - - 15
+      - 17
+  - - - 22
+      - 24
+    - - 17
+      - 17
+  - - - 24
+      - 24
+    - - 15
+      - 17
+  lanes:
+  - id: Q1
+    centerline:
+    - - 22
+      - 22.5
+    - - 15.5
+      - 15
+    enter:
+    - 22
+    - 15.5
+    exit:
+    - 22.5
+    - 15
+  - id: Q2
+    centerline:
+    - - 23.5
+      - 22
+    - - 15
+      - 16.5
+    enter:
+    - 23.5
+    - 15
+    exit:
+    - 22
+    - 16.5
+- id: S
+  type: intersection
+  boundaries:
+  - - - 8
+      - 8
+    - - 15
+      - 17
+  - - - 8
+      - 10
+    - - 15
+      - 15
+  - - - 10
+      - 10
+    - - 15
+      - 17
+  - - - 8
+      - 10
+    - - 17
+      - 17
+  lanes:
+  - id: S1
+    centerline:
+    - - 10
+      - 9.5
+    - - 16.5
+      - 17
+    enter:
+    - 10
+    - 16.5
+    exit:
+    - 9.5
+    - 17
+  - id: S2
+    centerline:
+    - - 10
+      - 8.5
+    - - 16.5
+      - 15
+    enter:
+    - 10
+    - 16.5
+    exit:
+    - 8.5
+    - 15
+  - id: S3
+    centerline:
+    - - 8.5
+      - 8.5
+    - - 17
+      - 15
+    enter:
+    - 8.5
+    - 17
+    exit:
+    - 8.5
+    - 15
+  - id: S4
+    centerline:
+    - - 8.5
+      - 10
+    - - 17
+      - 15.5
+    enter:
+    - 8.5
+    - 17
+    exit:
+    - 10
+    - 15.5
+  - id: S5
+    centerline:
+    - - 9.5
+      - 10
+    - - 15
+      - 15.5
+    enter:
+    - 9.5
+    - 15
+    exit:
+    - 10
+    - 15.5
+  - id: S6
+    centerline:
+    - - 9.5
+      - 9.5
+    - - 15
+      - 17
+    enter:
+    - 9.5
+    - 15
+    exit:
+    - 9.5
+    - 17
+- id: V
+  type: intersection
+  boundaries:
+  - - - 1
+      - 3
+    - - 25
+      - 25
+  - - - 1
+      - 1
+    - - 25
+      - 27
+  - - - 1
+      - 3
+    - - 27
+      - 27
+  - - - 3
+      - 3
+    - - 25
+      - 27
+  lanes:
+  - id: V1
+    centerline:
+    - - 3
+      - 1.5
+    - - 26.5
+      - 25
+    enter:
+    - 3
+    - 26.5
+    exit:
+    - 1.5
+    - 25
+  - id: V2
+    centerline:
+    - - 2.5
+      - 3
+    - - 25
+      - 25.5
+    enter:
+    - 2.5
+    - 25
+    exit:
+    - 3
+    - 25.5
+- id: X
+  type: intersection
+  boundaries:
+  - - - 8
+      - 10
+    - - 25
+      - 25
+  - - - 8
+      - 8
+    - - 25
+      - 27
+  - - - 8
+      - 10
+    - - 27
+      - 27
+  - - - 10
+      - 10
+    - - 25
+      - 27
+  lanes:
+  - id: X1
+    centerline:
+    - - 8
+      - 8.5
+    - - 25.5
+      - 25
+    enter:
+    - 8
+    - 25.5
+    exit:
+    - 8.5
+    - 25
+  - id: X2
+    centerline:
+    - - 9.5
+      - 8
+    - - 25
+      - 26.5
+    enter:
+    - 9.5
+    - 25
+    exit:
+    - 8
+    - 26.5
+connections:
+- from: A1
+  to: H2
+- from: A2
+  to: B2
+- from: E1
+  to: F1
+- from: E1
+  to: F2
+- from: E2
+  to: D3
+- from: E2
+  to: D4
+- from: G1
+  to: F5
+- from: G1
+  to: F6
+- from: G2
+  to: H1
+- from: I1
+  to: B1
+- from: I2
+  to: J3
+- from: I2
+  to: J4
+- from: K1
+  to: L2
+- from: K2
+  to: J1
+- from: K2
+  to: J2
+- from: M1
+  to: D5
+- from: M1
+  to: D6
+- from: M2
+  to: L1
+- from: N1
+  to: J5
+- from: N1
+  to: J6
+- from: N2
+  to: O2
+- from: P1
+  to: Q2
+- from: P2
+  to: O1
+- from: R1
+  to: S1
+- from: R1
+  to: S2
+- from: R2
+  to: Q1
+- from: T1
+  to: S5
+- from: T1
+  to: S6
+- from: T2
+  to: D1
+- from: T2
+  to: D2
+- from: U1
+  to: V2
+- from: U2
+  to: F3
+- from: U2
+  to: F4
+- from: W1
+  to: V1
+- from: W2
+  to: X1
+- from: Y1
+  to: X2
+- from: Y2
+  to: S3
+- from: Y2
+  to: S4
+- from: B1
+  to: A1
+- from: B2
+  to: I2
+- from: D1
+  to: E1
+- from: D2
+  to: M2
+- from: D3
+  to: M2
+- from: D4
+  to: T1
+- from: D5
+  to: T1
+- from: D6
+  to: E1
+- from: F1
+  to: U1
+- from: F2
+  to: G2
+- from: F3
+  to: G2
+- from: F4
+  to: E2
+- from: F5
+  to: E2
+- from: F6
+  to: U1
+- from: H1
+  to: A2
+- from: H2
+  to: G1
+- from: J1
+  to: I1
+- from: J2
+  to: N2
+- from: J3
+  to: N2
+- from: J4
+  to: K1
+- from: J5
+  to: K1
+- from: J6
+  to: I1
+- from: L1
+  to: K2
+- from: L2
+  to: M1
+- from: O1
+  to: N1
+- from: O2
+  to: P1
+- from: Q1
+  to: P2
+- from: Q2
+  to: R1
+- from: S1
+  to: Y1
+- from: S2
+  to: T2
+- from: S3
+  to: T2
+- from: S4
+  to: R2
+- from: S5
+  to: R2
+- from: S6
+  to: Y1
+- from: V1
+  to: U2
+- from: V2
+  to: W2
+- from: X1
+  to: Y2
+- from: X2
+  to: W1
