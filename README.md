@@ -13,3 +13,5 @@ map1.yml is an example map
 example
 - python simControl.py mapTest.yml E1 E2
 ```
+
+![Map of 'mapTest.yml" built off example config 'map1.yml' with route from E1 to E2](assets/Figure_1.png)
