@@ -14,4 +14,11 @@ example
 - python simControl.py mapTest.yml E1 E2
 ```
 
+# Building a map
+```
+to buld a map, every enter/exit edge of a lane must equal an edge of an intersection
+
+it currently has some limitations in the allowed geometries of map lanes. 
+```
+
 ![Map of 'mapTest.yml" built off example config 'map1.yml' with route from E1 to E2](assets/Figure_1.png)
